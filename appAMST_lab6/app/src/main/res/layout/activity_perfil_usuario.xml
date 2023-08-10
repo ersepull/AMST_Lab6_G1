@@ -55,23 +55,6 @@
             android:gravity="center"
             android:text="Biografía" />
 
-        <EditText
-            android:id="@+id/edt_tweet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Tweet" />
-
-        <EditText
-            android:id="@+id/edt_fecha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Fecha" />
-
-        <Button
-            android:id="@+id/btn_enviar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enviar" />
 
         <Button
             android:id="@+id/btn_logout"

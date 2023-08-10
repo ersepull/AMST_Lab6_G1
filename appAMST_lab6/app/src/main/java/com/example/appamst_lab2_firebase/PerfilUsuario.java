@@ -41,9 +41,9 @@ public class PerfilUsuario extends AppCompatActivity {
         txt_name = findViewById(R.id.txt_nombre);
         txt_email = findViewById(R.id.txt_correo);
         imv_photo = findViewById(R.id.imv_foto);
-        edt_tweet = findViewById(R.id.edt_tweet);
-        edt_fecha = findViewById(R.id.edt_fecha);
-        btn_enviar = findViewById(R.id.btn_enviar);
+        //edt_tweet = findViewById(R.id.edt_tweet);
+        //edt_fecha = findViewById(R.id.edt_fecha);
+        //btn_enviar = findViewById(R.id.btn_enviar);
         txt_telefono = findViewById(R.id.txt_telefono);
         txt_biografia = findViewById(R.id.txt_biografia);
 
@@ -62,11 +62,11 @@ public class PerfilUsuario extends AppCompatActivity {
         btn_enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String tweet = edt_tweet.getText().toString();
-                String fecha = edt_fecha.getText().toString();
+                //String tweet = edt_tweet.getText().toString();
+                //String fecha = edt_fecha.getText().toString();
                 //escribirTweets(info_user.get("user_name"), tweet, fecha);
-                edt_tweet.setText("");
-                edt_fecha.setText("");
+                //edt_tweet.setText("");
+                //edt_fecha.setText("");
             }
         });
     }
